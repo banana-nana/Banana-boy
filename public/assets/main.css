@@ -9,7 +9,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #33332c;
+    background: #feffc7;
     color: #fff;
     font-family: Roboto;
     font-weight: 400;
@@ -40,7 +40,7 @@ header {
     margin: 5px 0px;
     width: 900px;
     padding: 0px 25px;
-    background: #282a23;
+    background: #fdffa6;
     border: solid 1px rgb(255, 255, 255, .2);
 }
 
@@ -66,7 +66,7 @@ header #github i {
 
 .container {
     width: 900px;
-    background: #23272a;
+    background: #fdffa6;
     padding: 25px;
     margin: 5px 0px;
     text-align: left;
