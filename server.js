@@ -10,7 +10,7 @@ const http = require('http'),
     atob = str => new Buffer.from(str, 'base64').toString('utf-8'),
     app = (req, res) => {
 
-      // HTTP(S) proxy.
+      // HTTP(S) proxys.
       if (req.url.startsWith(config.prefix)) return proxy.http(req, res); 
 
       req.pathname = req.url.split('#')[0].split('?')[0];
